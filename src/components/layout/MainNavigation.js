@@ -1,9 +1,16 @@
 import { Link } from "react-router-dom";
 
+import classes from './MainNavigation.module.css';
+import packageJson from "../../../package.json";
+
 function MainNavigation(params) {
   return (
-    <header>
-      <div>Pages</div>
+    <header className={classes.header}>
+      <div className={classes.logo}>Portfolio</div>
+      <span id="version" className="text-light">
+        v{packageJson.version}
+      </span>
+      
       <nav>
         <ul>
           <li>

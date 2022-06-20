@@ -1,10 +1,12 @@
 import MainNavigation from "../components/layout/MainNavigation";
 
 function ToolsPage() {
-  return <div>
-    Tools page
-    <MainNavigation />
-  </div>
+  return (
+    <div>
+      <MainNavigation />
+      <p>Tools page</p>
+    </div>
+  );
 }
 
 export default ToolsPage;

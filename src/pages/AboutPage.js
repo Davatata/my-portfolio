@@ -1,10 +1,12 @@
 import MainNavigation from "../components/layout/MainNavigation";
 
 function AboutPage() {
-  return <div>
-    About page
-    <MainNavigation />
-  </div>
+  return (
+    <div>
+      <MainNavigation />
+      <p>About page</p>
+    </div>
+  );
 }
 
 export default AboutPage;
